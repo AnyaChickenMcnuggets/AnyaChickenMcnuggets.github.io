@@ -1,0 +1,26 @@
+.text h1{
+	font-size: 20pt;
+}
+.text h2{
+	font-size: 18pt;
+}
+.text p{
+	font-size: 14pt;
+}
+.text li{
+	font-size: 12pt;
+	list-style-type: square;
+	list-style-position: inside;
+}
+.text ul{
+	padding: 0;
+	margin: 0;
+}
+.text hr{
+	size: 1px;
+	border: 2px solid rgb(000 124 195);
+	padding: 0;
+}
+.text img{
+	width: 100%;
+}

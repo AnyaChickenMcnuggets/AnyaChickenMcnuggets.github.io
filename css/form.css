@@ -1,0 +1,35 @@
+form input{
+    border: 1px solid rgb(170 169 169);
+    margin: 5px;
+    width: 100%;
+    padding: 15px;
+}
+form textarea{
+    border: 1px solid rgb(170 169 169);
+    margin: 5px;
+    width: 100%;
+    padding: 15px;
+    resize: none;
+}
+form input:focus{
+    border: 1px solid rgb(170 169 169);
+    outline: none;
+    box-shadow: 0 0 10px rgb(000 124 195);
+}
+form textarea:focus{
+    border: 1px solid rgb(170 169 169);
+    outline: none;
+    box-shadow: 0 0 10px rgb(000 124 195);
+}
+input::placeholder{
+    color: rgb(31 26 23);
+}
+textarea::placeholder{
+    color: rgb(31 26 23);
+}
+input:hover{
+    cursor: url(../cursors/pointer.cur), default;
+}
+textarea:hover{
+    cursor: url(../cursors/pointer.cur), default;
+}

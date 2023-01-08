@@ -1,0 +1,18 @@
+.toTop{
+	position: fixed;
+	right: 7px;
+	bottom: 7px;
+	background: #e8e8f3;
+	border-radius: 100%;
+	box-shadow: 0 0 10px rgb(170 169 169);
+}
+.toTop img{
+	width: 20px;
+	height: 20px;
+	background: #e8e8f3;
+}
+.toTop:hover{
+	cursor: url(../cursors/pointer.cur), default;
+	transform: scale(1.1);
+	box-shadow: 0 0 10px rgb(000 124 195);
+}
